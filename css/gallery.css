@@ -26,7 +26,8 @@
     font-weight: 300;
     font-size: 2.5rem;
     color: white;
-    letter-spacing: 1.5rem;
+    letter-spacing: 1.2rem;
+    margin-top: 10%;
 }
 .wrapper-gallery h2{
     margin-bottom: 2%;
@@ -148,3 +149,9 @@
 .img-btn-prev:hover{
     opacity: 0.8;
 } */
+@media  only screen and (max-width:520px){
+    .wrapper-gallery h1{
+        font-size: 2rem;
+        letter-spacing: 1.1rem;
+    }
+}
