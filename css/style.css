@@ -136,6 +136,7 @@ a{
 }
 
 main .site-title{
+    background: url("/assets/bgimages/camerabg.jpg") no-repeat center;
     background-size:cover;
     height: 110vh;
     display: flex;
@@ -647,7 +648,7 @@ footer.footer .move-up span:hover{
         display: initial;
     }
     main .site-title{
-        background: url("/assets/camerabg2.jpg");
+        background: url("/assets/bgimages/camerabg2.jpg");
         background-size: cover;
         height: 110vh;
         display: flex;
