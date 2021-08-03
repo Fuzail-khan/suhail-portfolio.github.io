@@ -136,9 +136,11 @@ a{
 }
 
 main .site-title{
-    background: url("/css/camerabg.jpg") no-repeat center;
+    background: url("../assets/camerabg.jpg");
     background-size:cover;
-    height: 110vh;
+    background-position: center center;
+    height: 70vh;
+    margin-bottom: 15%;
     display: flex;
     justify-content: center;
 }
@@ -647,17 +649,11 @@ footer.footer .move-up span:hover{
     .nav .toggle-collapse{
         display: initial;
     }
-    main .site-title{
-        background: url("/css/camerabg2.jpg");
-        background-size: cover;
-        height: 110vh;
-        display: flex;
-        justify-content: center;
-    }
+    
    .text h2{
        font-size: 3rem;
        position: relative;
-       top: 15vh;
+       top: 4vh;
    }
    .text p{
        font-size: 1rem;
@@ -668,9 +664,11 @@ footer.footer .move-up span:hover{
    .text h3{
        font-size: 1.5rem;
        position: relative;
-       top: 18vh;
-       left: 1%;
-              
+       top: 5vh;
+       left: 1%;          
+   }
+   main .site-title{
+       margin-bottom: 30%;
    }
    .card1{
     width: 80%;
@@ -747,8 +745,22 @@ footer.footer .move-up span:hover{
     .nav .nav-items{
         margin-top: 10%;
     }
+    .text h2{
+        font-size: 1.8rem;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        top: 2%;
+    }
+    .text h3{
+        font-size: 1.2rem;
+        top: 2%;
+    }
     .text p{
         right: 2%;
+    }
+    main .site-title{
+        margin-bottom: 50%;
     }
     .contact{
         padding: 0;
@@ -795,6 +807,21 @@ footer.footer .move-up span:hover{
     margin-right: 10%;
     margin-bottom: 25%;
     }
+
+    .cardContent .cardleft h3{
+        font-size: 1.5rem;
+    }
+    .cardContent .cardleft p{
+        font-size: 1rem;
+    }
+
+    .cardContent .cardright h3{
+        font-size: 1.5rem;
+    }
+    .cardContent .cardright p{
+        font-size: 1rem;
+    }
+
     footer.footer .footerContainer > div{
         padding: 1rem 0.9rem !important;
     }
